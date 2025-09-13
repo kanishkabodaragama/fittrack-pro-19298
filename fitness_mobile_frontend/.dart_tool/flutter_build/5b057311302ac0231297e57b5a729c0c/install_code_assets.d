@@ -1,0 +1,1 @@
+ /home/kavia/workspace/code-generation/fittrack-pro-19298/fitness_mobile_frontend/.dart_tool/flutter_build/5b057311302ac0231297e57b5a729c0c/native_assets.json: 
