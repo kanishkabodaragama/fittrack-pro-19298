@@ -29,10 +29,8 @@ class _HomeShellState extends State<HomeShell> {
   void initState() {
     super.initState();
     // Safe: no BuildContext operations after await; load quickly
-    Future.microtask(() {
-      final app = context.read<AppState>();
-      app.loadInitial();
-    });
+    final app = context.read<AppState>();
+    Future.microtask(() => app.loadInitial());
   }
 
   @override

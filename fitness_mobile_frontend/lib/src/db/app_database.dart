@@ -71,7 +71,7 @@ class AppDatabase {
 
 // PUBLIC_INTERFACE
 class UserDao {
-  /** Data access object for the users table. */
+  /// Data access object for the users table.
   UserDao(this.db);
   final Database db;
 
@@ -107,7 +107,7 @@ class UserDao {
 
 // PUBLIC_INTERFACE
 class WorkoutDao {
-  /** Data access object for the workouts table. */
+  /// Data access object for the workouts table.
   WorkoutDao(this.db);
   final Database db;
 
@@ -134,7 +134,7 @@ class WorkoutDao {
 
 // PUBLIC_INTERFACE
 class GoalDao {
-  /** Data access object for the goals table. */
+  /// Data access object for the goals table.
   GoalDao(this.db);
   final Database db;
 
