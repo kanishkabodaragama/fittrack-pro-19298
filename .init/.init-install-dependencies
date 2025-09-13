@@ -1,0 +1,4 @@
+{
+    "command": "flutter pub get",
+    "working_directory": "/home/kavia/workspace/code-generation/fittrack-pro-19298/fitness_mobile_frontend"
+}
